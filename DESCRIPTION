@@ -15,6 +15,7 @@ Imports:
     devtools,
     dplyr,
     emptyfield (>= 0.0.1),
+    forcats,
     fs,
     ggplot2,
     glue,
