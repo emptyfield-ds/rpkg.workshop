@@ -11,5 +11,8 @@
 #'
 #' @export
 use_module <- function(module, destdir = NULL) {
-  emptyfield::use_module(module = module, destdir = destdir)
+  usethis::use_course(
+    url = glue::glue("emptyfield-ds/{module}"),
+    destdir = destdir
+  )
 }
